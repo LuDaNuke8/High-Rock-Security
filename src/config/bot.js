@@ -25,9 +25,9 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "Made with ❤️ by LuDaNuke8",
         // Activity type number (0 = Playing).
-        type: 0, 
+        type: 4, 
       },
     ],
   },
@@ -88,14 +88,14 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699", 
-      secondary: "#2F3136", 
+      primary: "#0AB114", 
+      secondary: "#f4f047", 
 
       // Standard status colors for success/error/warning/info messages.
-      success: "#57F287", 
-      error: "#ED4245", 
-      warning: "#FEE75C", 
-      info: "#3498DB", 
+      success: "#14ff14", 
+      error: "#ff0000", 
+      warning: "#ffa100", 
+      info: "#cfff99", 
 
       // Neutral utility colors.
       light: "#FFFFFF",
@@ -112,14 +112,14 @@ export const botConfig = {
 
       // Feature-specific colors.
       giveaway: {
-        active: "#57F287",
-        ended: "#ED4245",
+        active: "#14ff14",
+        ended: "#ff0000",
       },
       ticket: {
         open: "#57F287",
-        claimed: "#FAA61A",
-        closed: "#ED4245",
-        pending: "#99AAB5",
+        claimed: "#14ff14",
+        closed: "#ff0000",
+        pending: "#ffa100",
       },
       economy: "#F1C40F",
       birthday: "#E91E63",
@@ -127,16 +127,16 @@ export const botConfig = {
 
       // Ticket priority color mapping.
       priority: {
-        none: "#95A5A6",
-        low: "#3498db",
-        medium: "#2ecc71",
-        high: "#f1c40f",
-        urgent: "#e74c3c",
+        none: "#3a3a3a",
+        low: "#51ff25",
+        medium: "#ffed27",
+        high: "#ffba26",
+        urgent: "#ff2828",
       },
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "High Rock Park Security",
       // Footer icon URL (null = no icon).
       icon: null,
     },
